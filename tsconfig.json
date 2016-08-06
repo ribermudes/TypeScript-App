@@ -1,15 +1,12 @@
 {
     "compilerOptions": {
         "module": "commonjs",
-        "target": "es5",
-        "noImplicitAny": true,
-        "outFile": "app/hello.js",
-        "sourceMap": true,
+        "target": "es3",
+        "noImplicitAny": false,
+        "outDir": "built",
+        "rootDir": ".",
+        "sourceMap": false
     },
-    "files": [
-      "sum.ts",
-  ]
-}
     "exclude": [
         "node_modules"
     ]
