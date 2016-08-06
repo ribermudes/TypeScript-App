@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": true,
+        "outFile": "app/hello.js",
+        "sourceMap": true,
+    },
+    "files": [
+      "sum.ts",
+  ]
+}
+    "exclude": [
+        "node_modules"
+    ]
+}
