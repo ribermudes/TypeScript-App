@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "compileOnSave": true,
   "compilerOptions": {
     "rootDir": "app",
@@ -8,5 +9,17 @@
     "app/to-do-create-tasks.ts",
     "app/to-do-classes-interfaces.ts",
     "app/to-do-people.ts"
+=======
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es3",
+        "noImplicitAny": false,
+        "outDir": "built",
+        "rootDir": ".",
+        "sourceMap": false
+    },
+    "exclude": [
+        "node_modules"
+>>>>>>> 8019408b128b30ed84ae52bdfe3a84916e7b79ab
     ]
 }
